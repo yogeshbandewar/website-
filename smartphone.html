@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smartphone - Product Details</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #004643;
+            padding: 30px;
+            text-align: center;
+            color: #fff;
+            position: relative;
+            overflow: hidden;
+        }
+
+        header h1 {
+            font-size: 32px;
+            margin: 0;
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .product-details {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            max-width: 600px;
+            margin: 40px auto;
+            transition: transform 0.3s;
+        }
+
+        .product-details:hover {
+            transform: translateY(-5px);
+        }
+
+        .product-details img {
+            width: 100%;
+            max-width: 300px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            border: 2px solid #004643;
+        }
+
+        .product-details h2 {
+            color: #004643;
+            margin-bottom: 10px;
+            font-size: 24px;
+        }
+
+        .product-details p {
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        .price {
+            font-size: 20px;
+            font-weight: bold;
+            color: #f25f4c;
+            margin-bottom: 20px;
+        }
+
+        button {
+            background-color: #004643;
+            border: none;
+            border-radius: 25px;
+            color: #fff;
+            font-size: 16px;
+            padding: 12px 30px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        button:hover {
+            background-color: #00796b;
+            transform: scale(1.05);
+        }
+
+        footer {
+            background-color: #004643;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        footer p {
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Smartphone</h1>
+    </header>
+    <main>
+        <div class="product-details">
+            <img src="C:\Users\vyankatesh\OneDrive\Desktop\web development\Samsung-Galaxy-Z-Flip5-Header.jpg" alt="Wireless Headphones">
+            <h2>Flip Samsung Smartphone</h2>
+            <p>Galaxy Ai,Circle to search,Live translate,Most compact Big impact,Ai powered camera</p>
+            <p class="price">Price: $250</p>
+            <button onclick="alert('Thank you for your purchase!')">Buy Now</button>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Online Workshop. All rights reserved.</p>
+    </footer>
+</body>
+</html>
